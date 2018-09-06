@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FerryMan_Example' do
+  pod 'FerryMan', :path => '../'
+
+  target 'FerryMan_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
