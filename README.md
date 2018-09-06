@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/FerryMan.svg?style=flat)](https://cocoapods.org/pods/FerryMan)
 [![Platform](https://img.shields.io/cocoapods/p/FerryMan.svg?style=flat)](https://cocoapods.org/pods/FerryMan)
 
+iOS组件化开发中的路由，服务解耦方案.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
