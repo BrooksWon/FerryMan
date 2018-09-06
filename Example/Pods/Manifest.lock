@@ -1,0 +1,16 @@
+PODS:
+  - FerryMan (0.1.0)
+
+DEPENDENCIES:
+  - FerryMan (from `../`)
+
+EXTERNAL SOURCES:
+  FerryMan:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FerryMan: 328afb148d8cebc57933dc9bc2c58c5cdca2c86a
+
+PODFILE CHECKSUM: 307f41592adf8ded5d811060c6a7ba4c010908e9
+
+COCOAPODS: 1.5.3

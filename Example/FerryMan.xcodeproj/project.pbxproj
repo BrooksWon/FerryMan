@@ -24,6 +24,19 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		750547DC395B01F9224E4E8A /* Pods_FerryMan_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E911F01A3DF740F7D337F310 /* Pods_FerryMan_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9822F82E2141408C000B0E8D /* FMServiceBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F8122141408C000B0E8D /* FMServiceBModule.m */; };
+		9822F82F2141408C000B0E8D /* FMServiceB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F8132141408C000B0E8D /* FMServiceB1.m */; };
+		9822F8302141408C000B0E8D /* FMServiceB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F8142141408C000B0E8D /* FMServiceB2.m */; };
+		9822F8312141408C000B0E8D /* FMServiceA1Imp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F81B2141408C000B0E8D /* FMServiceA1Imp.m */; };
+		9822F8322141408C000B0E8D /* FMServiceAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F81D2141408C000B0E8D /* FMServiceAModule.m */; };
+		9822F8332141408C000B0E8D /* FMServiceA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F81F2141408C000B0E8D /* FMServiceA2.m */; };
+		9822F8342141408C000B0E8D /* FMServiceA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F8222141408C000B0E8D /* FMServiceA1.m */; };
+		9822F8352141408C000B0E8D /* FMServiceA2Imp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F8232141408C000B0E8D /* FMServiceA2Imp.m */; };
+		9822F844214141CB000B0E8D /* FMOrderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9822F83C214141CB000B0E8D /* FMOrderListViewController.xib */; };
+		9822F845214141CB000B0E8D /* FMOrderRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F83D214141CB000B0E8D /* FMOrderRouterModule.m */; };
+		9822F846214141CB000B0E8D /* FMOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F83E214141CB000B0E8D /* FMOrderListViewController.m */; };
+		9822F847214141CB000B0E8D /* FMOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9822F83F214141CB000B0E8D /* FMOrderDetailViewController.m */; };
+		9822F848214141CB000B0E8D /* FMOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9822F841214141CB000B0E8D /* FMOrderDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +72,37 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		88DE04BADC516D8F82259137 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8C3610AD816FF259657D5527 /* FerryMan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FerryMan.podspec; path = ../FerryMan.podspec; sourceTree = "<group>"; };
+		88DE04BADC516D8F82259137 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C3610AD816FF259657D5527 /* FerryMan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FerryMan.podspec; path = ../FerryMan.podspec; sourceTree = "<group>"; };
+		9822F8122141408C000B0E8D /* FMServiceBModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceBModule.m; sourceTree = "<group>"; };
+		9822F8132141408C000B0E8D /* FMServiceB1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceB1.m; sourceTree = "<group>"; };
+		9822F8142141408C000B0E8D /* FMServiceB2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceB2.m; sourceTree = "<group>"; };
+		9822F8152141408C000B0E8D /* FMModuleBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMModuleBProtocol.h; sourceTree = "<group>"; };
+		9822F8162141408C000B0E8D /* FMServiceBModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceBModule.h; sourceTree = "<group>"; };
+		9822F8172141408C000B0E8D /* FMServiceB1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceB1.h; sourceTree = "<group>"; };
+		9822F8182141408C000B0E8D /* FMServiceB2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceB2.h; sourceTree = "<group>"; };
+		9822F81A2141408C000B0E8D /* FMServiceA2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceA2.h; sourceTree = "<group>"; };
+		9822F81B2141408C000B0E8D /* FMServiceA1Imp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceA1Imp.m; sourceTree = "<group>"; };
+		9822F81C2141408C000B0E8D /* FMServiceA2Imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceA2Imp.h; sourceTree = "<group>"; };
+		9822F81D2141408C000B0E8D /* FMServiceAModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceAModule.m; sourceTree = "<group>"; };
+		9822F81E2141408C000B0E8D /* FMServiceA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceA1.h; sourceTree = "<group>"; };
+		9822F81F2141408C000B0E8D /* FMServiceA2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceA2.m; sourceTree = "<group>"; };
+		9822F8202141408C000B0E8D /* FMModuleAProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMModuleAProtocol.h; sourceTree = "<group>"; };
+		9822F8212141408C000B0E8D /* FMServiceA1Imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceA1Imp.h; sourceTree = "<group>"; };
+		9822F8222141408C000B0E8D /* FMServiceA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceA1.m; sourceTree = "<group>"; };
+		9822F8232141408C000B0E8D /* FMServiceA2Imp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceA2Imp.m; sourceTree = "<group>"; };
+		9822F8242141408C000B0E8D /* FMServiceAModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMServiceAModule.h; sourceTree = "<group>"; };
+		9822F83C214141CB000B0E8D /* FMOrderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOrderListViewController.xib; sourceTree = "<group>"; };
+		9822F83D214141CB000B0E8D /* FMOrderRouterModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMOrderRouterModule.m; sourceTree = "<group>"; };
+		9822F83E214141CB000B0E8D /* FMOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMOrderListViewController.m; sourceTree = "<group>"; };
+		9822F83F214141CB000B0E8D /* FMOrderDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMOrderDetailViewController.m; sourceTree = "<group>"; };
+		9822F840214141CB000B0E8D /* FMOrderRouterModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMOrderRouterModule.h; sourceTree = "<group>"; };
+		9822F841214141CB000B0E8D /* FMOrderDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMOrderDetailViewController.xib; sourceTree = "<group>"; };
+		9822F842214141CB000B0E8D /* FMOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMOrderListViewController.h; sourceTree = "<group>"; };
+		9822F843214141CB000B0E8D /* FMOrderDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMOrderDetailViewController.h; sourceTree = "<group>"; };
 		99897B72F3007BA173699FC3 /* Pods-FerryMan_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryMan_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FerryMan_Example/Pods-FerryMan_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF43690D637031A42D9B78C4 /* Pods-FerryMan_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryMan_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FerryMan_Example/Pods-FerryMan_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CD1BACB99D3BFE796895DDA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CD1BACB99D3BFE796895DDA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D2B5061EE6F0D00B9CE5E623 /* Pods-FerryMan_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryMan_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FerryMan_Tests/Pods-FerryMan_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E911F01A3DF740F7D337F310 /* Pods_FerryMan_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FerryMan_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C397390F2AA04AA6F2A893 /* Pods-FerryMan_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FerryMan_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FerryMan_Tests/Pods-FerryMan_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +182,8 @@
 		6003F593195388D20070C39A /* Example for FerryMan */ = {
 			isa = PBXGroup;
 			children = (
+				9822F83B214141CB000B0E8D /* routerTest */,
+				9822F8102141408C000B0E8D /* serviceTest */,
 				6003F59C195388D20070C39A /* FMAppDelegate.h */,
 				6003F59D195388D20070C39A /* FMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +235,62 @@
 				88DE04BADC516D8F82259137 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9822F8102141408C000B0E8D /* serviceTest */ = {
+			isa = PBXGroup;
+			children = (
+				9822F8192141408C000B0E8D /* ModuleA */,
+				9822F8112141408C000B0E8D /* ModuleB */,
+			);
+			path = serviceTest;
+			sourceTree = "<group>";
+		};
+		9822F8112141408C000B0E8D /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				9822F8152141408C000B0E8D /* FMModuleBProtocol.h */,
+				9822F8172141408C000B0E8D /* FMServiceB1.h */,
+				9822F8132141408C000B0E8D /* FMServiceB1.m */,
+				9822F8182141408C000B0E8D /* FMServiceB2.h */,
+				9822F8142141408C000B0E8D /* FMServiceB2.m */,
+				9822F8162141408C000B0E8D /* FMServiceBModule.h */,
+				9822F8122141408C000B0E8D /* FMServiceBModule.m */,
+			);
+			path = ModuleB;
+			sourceTree = "<group>";
+		};
+		9822F8192141408C000B0E8D /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				9822F8202141408C000B0E8D /* FMModuleAProtocol.h */,
+				9822F81E2141408C000B0E8D /* FMServiceA1.h */,
+				9822F8222141408C000B0E8D /* FMServiceA1.m */,
+				9822F8212141408C000B0E8D /* FMServiceA1Imp.h */,
+				9822F81B2141408C000B0E8D /* FMServiceA1Imp.m */,
+				9822F81A2141408C000B0E8D /* FMServiceA2.h */,
+				9822F81F2141408C000B0E8D /* FMServiceA2.m */,
+				9822F81C2141408C000B0E8D /* FMServiceA2Imp.h */,
+				9822F8232141408C000B0E8D /* FMServiceA2Imp.m */,
+				9822F8242141408C000B0E8D /* FMServiceAModule.h */,
+				9822F81D2141408C000B0E8D /* FMServiceAModule.m */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		9822F83B214141CB000B0E8D /* routerTest */ = {
+			isa = PBXGroup;
+			children = (
+				9822F843214141CB000B0E8D /* FMOrderDetailViewController.h */,
+				9822F83F214141CB000B0E8D /* FMOrderDetailViewController.m */,
+				9822F841214141CB000B0E8D /* FMOrderDetailViewController.xib */,
+				9822F842214141CB000B0E8D /* FMOrderListViewController.h */,
+				9822F83E214141CB000B0E8D /* FMOrderListViewController.m */,
+				9822F83C214141CB000B0E8D /* FMOrderListViewController.xib */,
+				9822F840214141CB000B0E8D /* FMOrderRouterModule.h */,
+				9822F83D214141CB000B0E8D /* FMOrderRouterModule.m */,
+			);
+			path = routerTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +375,9 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				9822F848214141CB000B0E8D /* FMOrderDetailViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9822F844214141CB000B0E8D /* FMOrderListViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,15 +398,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-FerryMan_Tests-checkManifestLockResult.txt",
 			);
@@ -321,15 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-FerryMan_Example-checkManifestLockResult.txt",
 			);
@@ -343,15 +434,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-FerryMan_Example/Pods-FerryMan_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FerryMan/FerryMan.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FerryMan.framework",
 			);
@@ -367,6 +454,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9822F82F2141408C000B0E8D /* FMServiceB1.m in Sources */,
+				9822F847214141CB000B0E8D /* FMOrderDetailViewController.m in Sources */,
+				9822F8342141408C000B0E8D /* FMServiceA1.m in Sources */,
+				9822F8302141408C000B0E8D /* FMServiceB2.m in Sources */,
+				9822F846214141CB000B0E8D /* FMOrderListViewController.m in Sources */,
+				9822F82E2141408C000B0E8D /* FMServiceBModule.m in Sources */,
+				9822F8322141408C000B0E8D /* FMServiceAModule.m in Sources */,
+				9822F845214141CB000B0E8D /* FMOrderRouterModule.m in Sources */,
+				9822F8352141408C000B0E8D /* FMServiceA2Imp.m in Sources */,
+				9822F8332141408C000B0E8D /* FMServiceA2.m in Sources */,
+				9822F8312141408C000B0E8D /* FMServiceA1Imp.m in Sources */,
 				6003F59E195388D20070C39A /* FMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

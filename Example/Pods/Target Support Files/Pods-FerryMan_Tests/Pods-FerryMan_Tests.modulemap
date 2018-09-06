@@ -1,0 +1,6 @@
+framework module Pods_FerryMan_Tests {
+  umbrella header "Pods-FerryMan_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
