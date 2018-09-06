@@ -1,4 +1,4 @@
-# FerryMan
+# FerryMan - 摆渡人
 
 [![CI Status](https://img.shields.io/travis/BrooksWon/FerryMan.svg?style=flat)](https://travis-ci.org/BrooksWon/FerryMan)
 [![Version](https://img.shields.io/cocoapods/v/FerryMan.svg?style=flat)](https://cocoapods.org/pods/FerryMan)
@@ -22,7 +22,7 @@ pod 'FerryMan'
 
 ## Author
 
-BrooksWon, wangjianyu@weiboyi.com
+BrooksWon, hellocodingman@gmail.com
 
 ## License
 

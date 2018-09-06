@@ -73,7 +73,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88DE04BADC516D8F82259137 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8C3610AD816FF259657D5527 /* FerryMan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FerryMan.podspec; path = ../FerryMan.podspec; sourceTree = "<group>"; };
+		8C3610AD816FF259657D5527 /* FerryMan.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FerryMan.podspec; path = ../FerryMan.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9822F8122141408C000B0E8D /* FMServiceBModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceBModule.m; sourceTree = "<group>"; };
 		9822F8132141408C000B0E8D /* FMServiceB1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceB1.m; sourceTree = "<group>"; };
 		9822F8142141408C000B0E8D /* FMServiceB2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMServiceB2.m; sourceTree = "<group>"; };
